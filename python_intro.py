@@ -83,7 +83,7 @@ def pig_latin(word):
     	return word[1:] + word[0] + "ay"  
     	   
 print(pig_latin("example"))
-        
+'''        
 #Problem 7
 def palidrome():
 	
@@ -91,15 +91,16 @@ def palidrome():
     product = 0
     for i in range(100,1000):
         for j in range(100,1000):
-            if str(i*j) == backword(str(i*j)):
+            if str(i*j) == backward(str(i*j)):
                 product = i*j
                 
             if product > largest_prod:
                largest_prod = product
     
-    print(largest_prod)
     return largest_prod
-    
+
+print(palidrome())
+'''   
          
                 
         
